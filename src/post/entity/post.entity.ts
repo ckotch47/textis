@@ -3,6 +3,11 @@ import {
   Column,
   PrimaryGeneratedColumn,
   BaseEntity,
+  Unique,
+  OneToOne,
+  JoinColumn,
+  OneToMany,
+  ManyToOne, ManyToMany,
 } from 'typeorm';
 import { Users } from '../../users/entity/users.entity';
 
